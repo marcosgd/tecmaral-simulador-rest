@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="facturas">
+<head>
+	<meta charset="UTF-8" />
+	<title>Listado de facturas</title>
+</head>
+
+<body ng-app="springmvc-angular" ng-controller="FacturasController" ng-init="getFacturas()">
+
+	<div class="container" ng-show="facturas != null">
+		<div class="factura-info-bottom" ng-repeat="factura in facturas">
+			<h4><span> {{factura.docId}} - {{factura.importe}} - {{factura.numeroFactura}} </span></h4>
+		</div>
+	</div>
+	
+	
+	<button ng-click="apiDownload()">Download PDF</button>	
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.js"></script>
+	<script src="./js/facturas.js"></script>
+	<script src="./js/pdfDownload.js"></script>
+</body>
+</html>
+

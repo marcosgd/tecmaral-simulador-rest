@@ -1,0 +1,189 @@
+{
+   "nombre":"Alicia",
+   "edad":13,
+   "facturas":[
+  
+{
+
+    "docId": "1d",
+    "importe": "100",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "01201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "2d",
+    "importe": "200",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "02201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "3d",
+    "importe": "300",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "03201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "4d",
+    "importe": "400",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "04201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "5d",
+    "importe": "500",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "05201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "6d",
+    "importe": "600",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "06201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "7d",
+    "importe": "700",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "07201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "7d",
+    "importe": "700",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "07201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "8d",
+    "importe": "800",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "08201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "9d",
+    "importe": "900",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "09201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "10d",
+    "importe": "100",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "10201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+{
+
+    "docId": "11d",
+    "importe": "110",
+    "subtipo": null,
+    "fechaEmision": null,
+    "fechaInicioFactura": null,
+    "fechaFinFactura": null,
+    "numeroFactura": "11201501",
+    "nombreContrato": null,
+    "fechaEmisionString": null,
+    "formatoFichero": null
+
+},
+
+{
+        "docId": "12d",
+        "importe": "120",
+        "subtipo": null,
+        "fechaEmision": null,
+        "fechaInicioFactura": null,
+        "fechaFinFactura": null,
+        "numeroFactura": "12201501",
+        "nombreContrato": null,
+        "fechaEmisionString": null,
+        "formatoFichero": null
+}
+
+]
+}

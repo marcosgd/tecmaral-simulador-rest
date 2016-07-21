@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Eclipse projects / mvn targer
+.classpath
+.project
+.settings/
+target/
+mivodafone.log.20160715
+simuladorRest.log.20160712
+*.log

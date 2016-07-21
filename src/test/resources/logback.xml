@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<contextName>SimuladorRest</contextName>
+	<!--   <jmxConfigurator />   -->
+	<statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
+		
+	
+	<appender name="simuladorRest"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>simuladorRest.log</File>
+		
+		<!-- Modo prudente: necesario por tener varios server escribiendo en el mismo fichero 
+		<prudent>true</prudent>		
+		-->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>mivodafone.log.%d{yyyyMMdd}</fileNamePattern>
+			<maxHistory>5</maxHistory>
+		</rollingPolicy>
+
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}]|[%-5p]|%X{req.requestId}|%X{req.sessionId}|%X{req.userId}|%class{10}]|%msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%date [%thread] %-5level %logger{25} - %msg%n</Pattern>
+		</layout>
+	</appender>
+	
+	
+
+	<!-- OTHERS -->
+	<logger name="org.springframework" level="DEBUG">
+		<appender-ref ref="simuladorRest" />
+	</logger>
+
+
+ 	<!-- MIVODAFONE  -->
+	<logger name="com.indra.vodafone" level="DEBUG" additivity="false" >
+		<appender-ref ref="simuladorRest" />
+		<appender-ref ref="console" />
+	</logger>
+
+  	
+</configuration>

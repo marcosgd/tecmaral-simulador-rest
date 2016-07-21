@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Usuario xmlns="user.tecmaral.es" xmlns:datoscontacto="datoscontacto.tecmaral.es" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="user.tecmaral.es
+D:\PROGRAMAS\ecplise_indigo_sr1_portlet\workspace\tecmaral-domain-user\schema\User.xsd">
+	<DatosIdentificacion>
+		<TipoIdentific>marcosgonzalezdiaz@gmail.com</TipoIdentific>
+	</DatosIdentificacion>
+	<DatosContacto>
+		<datoscontacto:nombre>Marcos</datoscontacto:nombre>
+		<datoscontacto:apellido1>Gonzalez</datoscontacto:apellido1>
+		<datoscontacto:apellido2>Diaz</datoscontacto:apellido2>
+		<datoscontacto:DatosAdicionalesContacto>
+			<datoscontacto:Sexo>String</datoscontacto:Sexo>
+			<datoscontacto:FechaNacimiento>String</datoscontacto:FechaNacimiento>
+			<datoscontacto:Nacionalidad>String</datoscontacto:Nacionalidad>
+			<datoscontacto:Profesion>String</datoscontacto:Profesion>
+			<datoscontacto:TipoVia>String</datoscontacto:TipoVia>
+			<datoscontacto:NombreVia>String</datoscontacto:NombreVia>
+			<datoscontacto:NumeroVia>String</datoscontacto:NumeroVia>
+			<datoscontacto:Poblacion>String</datoscontacto:Poblacion>
+			<datoscontacto:Provincia>String</datoscontacto:Provincia>
+			<datoscontacto:CodPostal>String</datoscontacto:CodPostal>
+			<datoscontacto:Pais>String</datoscontacto:Pais>
+			<datoscontacto:Escalera>String</datoscontacto:Escalera>
+			<datoscontacto:Bloque>String</datoscontacto:Bloque>
+			<datoscontacto:Portal>String</datoscontacto:Portal>
+			<datoscontacto:Piso>String</datoscontacto:Piso>
+			<datoscontacto:Puerta>String</datoscontacto:Puerta>
+			<datoscontacto:Telefono>String</datoscontacto:Telefono>
+			<datoscontacto:Email>String</datoscontacto:Email>
+		</datoscontacto:DatosAdicionalesContacto>
+	</DatosContacto>
+	<DatosAdicionales>
+		<FechaAlta>String</FechaAlta>
+		<Idioma>String</Idioma>
+		<FechaUltimoAcceso>String</FechaUltimoAcceso>
+	</DatosAdicionales>
+</Usuario>
